@@ -5,9 +5,10 @@ import './index.css'
 
 import HomePage from "./screens/Home";
 import ServicePage from "./screens/Services";
-import ContactUsPage from "./screens/Cantactus";
+import ContactUsPage from "./screens/Contactus";
 import AboutUsPage from "./screens/AboutUs";
 import NewsPage from "./screens/News";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/news" element={<NewsPage />} />
           <Route path="/contactus" element={<ContactUsPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
