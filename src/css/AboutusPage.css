@@ -1,0 +1,93 @@
+.about-us-page {
+    margin: 3rem;
+
+}
+
+.about-us-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.about-us-left {
+    background-color: #a66a6a;
+    padding: 3rem;
+}
+
+.about-us-right {
+    padding: 3rem;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    margin-bottom: 20px;
+}
+
+.owner-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.testimonial-section {
+    margin-top: 4rem;
+}
+
+.testimonial-section h2{
+    text-align: center;
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.testimonial-card {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.testimonial-image {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.testimonial-details {
+    padding: 10px;
+}
+
+.testimonial-name {
+    margin: 0;
+    font-size: 18px;
+}
+
+.testimonial-description {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .about-us-section {
+        grid-template-columns: 1fr; 
+    }
+
+    .about-us-left {
+        order: 2; 
+    }
+
+    .about-us-right {
+        order: 1;
+    }
+}
