@@ -90,61 +90,44 @@
 }
 
 .services-container {
-  padding: 50px 0;
+  margin-top: 5rem;
   text-align: center;
 }
 
 .topic {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.service-boxes {
-  display: flex;
-  justify-content: space-around;
-}
-
-.service-box {
-  width: 30%;
-  padding: 20px;
-}
-
-.service-box img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.service-box p {
-  margin-top: 10px;
   font-size: 1.2rem;
 }
 
-.partners-container {
-  padding: 50px 0;
-  text-align: center;
+.images-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
 }
 
-.partner-logos {
+.service-1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 25vw;
+  height: 60vh;
+  background-image: url("/src/assets/bat_repair.png");
+  background-size: cover;
+  border-radius: 1rem;
 }
 
-.logo-carousel {
-  position: relative;
-  width: 80%;
-  overflow: hidden;
+.img-text {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.logo-carousel img {
-  width: 100px;
-  height: auto;
-  margin: 0 10px;
-  opacity: 0.5;
-  transition: opacity 0.3s ease;
+
+.partners-container {
+  margin-top: 5rem;
+  text-align: center;
 }
 
-.logo-carousel img.active {
-  opacity: 1;
+
+.slider-container {
+  display: block;
 }
