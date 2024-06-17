@@ -24,14 +24,14 @@ const ContactusPage = () => {
 								<label>Message</label>
 								<input type="text" />
 							</div>
-							<div className="form-group">
+							{/* <div className="form-group">
 								<label>How did you find us?</label>
 								<select>
 									<option value="social_media">Facebook</option>
 									<option value="search_engine">Tiktok</option>
 									<option value="search_engine">Website</option>
 								</select>
-							</div>
+							</div> */}
 							<button type="submit">SEND</button>
 						</form>
 					</div>
