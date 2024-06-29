@@ -27,16 +27,16 @@
   left: 50%;
   transform: translateX(-50%);
   padding: 10px 20px;
-  background-color: white;
-  color: black;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .view-more-btn:hover {
-  color: white;
-  background-color: black;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Services Section */
@@ -213,12 +213,103 @@ button {
   color: #6c757d;
 }
 
-/* Media query for MacBooks */
-@media only screen and (min-device-width: 1280px) and (max-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* Your styles for MacBooks here */
+@media (max-width: 575px) {
+  .home {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .landing-image h1 {
+    font-size: 2em;
+  }
+
+  .landing-image img {
+    width: 180%;
+    height: 80vh;
+    object-fit: fill;
+    /* padding-left: 2rem; */
+  }
+
+  .service-cards-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card-home {
+    margin-top: 2rem;
+    width: 60%;
+    height: 40vh;
+    margin-bottom: 2rem;
+  }
+
+  .service-card-home2 {
+    margin-top: 2rem;
+    width: 60%;
+    height: 40vh;
+    margin-bottom: 2rem;
+  }
+
+  .service-card-home3 {
+    margin-top: 2rem;
+    width: 60%;
+    height: 40vh;
+    margin-bottom: 2rem;
+  }
+
+  .partner-logo img {
+    max-width: 20vw;
+    /* max-height: 40%; */
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    margin: 2rem;
+  }
+
+  .map {
+    margin-top: 1rem;
+  }
+
+  .map iframe {
+    height: 30vh;
+  }
 }
 
-/* Media query for Windows screens */
-@media only screen and (min-device-width: 1366px) and (max-device-width: 1920px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  /* Your styles for Windows screens here */
+@media (min-width: 576px) and (max-width: 767px) {
+  .home {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .landing-image h1 {
+    font-size: 2.5em;
+  }
+
+  .partner-logo img {
+    max-width: 15vw;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    margin: 2rem;
+  }
+
+  .map {
+    margin-top: 1rem;
+  }
+
+  .map iframe {
+    height: 30vh;
+  }
 }
