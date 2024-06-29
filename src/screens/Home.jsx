@@ -37,10 +37,10 @@ const HomePage = () => {
 						<div className="service-card-home">
 							<h3>BAT REPAIR</h3>
 						</div>
-						<div className="service-card-home">
+						<div className="service-card-home2">
 							<h3>DELIVERY</h3>
 						</div>
-						<div className="service-card-home">
+						<div className="service-card-home3">
 							<h3>BAT MAINTAIN</h3>
 						</div>
 					</div>
@@ -50,17 +50,19 @@ const HomePage = () => {
 				<div className="partners">
 					<h2>OUR PARTNERS</h2>
 					<div className='slider-div'>
-						<Slider {...settings}>
-							<div className="partner-logo">
-								<img src={partner1} alt="Partner 1" />
-							</div>
-							<div className="partner-logo">
-								<img src={partner1} alt="Partner 2" />
-							</div>
-							<div className="partner-logo">
-								<img src={partner1} alt="Partner 2" />
-							</div>
-						</Slider>
+						<center>
+							<Slider {...settings}>
+								<div className="partner-logo">
+									<img src={partner1} alt="Partner 1" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner1} alt="Partner 2" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner1} alt="Partner 2" />
+								</div>
+							</Slider>
+						</center>
 					</div>
 				</div>
 
@@ -101,11 +103,6 @@ const HomePage = () => {
 						></iframe>
 					</div>
 				</div>
-
-				{/* Footer
-				<footer className="footer">
-					<p>&copy; 2024 Bat Repair Shop. All Rights Reserved.</p>
-				</footer> */}
 			</div>
 		</div>
 	);
