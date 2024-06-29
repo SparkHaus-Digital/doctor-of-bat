@@ -50,17 +50,17 @@ const HomePage = () => {
 				<div className="partners">
 					<h2>OUR PARTNERS</h2>
 					<div className='slider-div'>
-					<Slider {...settings}>
-						<div className="partner-logo">
-							<img src={partner1} alt="Partner 1" />
-						</div>
-						<div className="partner-logo">
-							<img src={partner1} alt="Partner 2" />
-						</div>
-						<div className="partner-logo">
-							<img src={partner1} alt="Partner 2" />
-						</div>
-					</Slider>
+						<Slider {...settings}>
+							<div className="partner-logo">
+								<img src={partner1} alt="Partner 1" />
+							</div>
+							<div className="partner-logo">
+								<img src={partner1} alt="Partner 2" />
+							</div>
+							<div className="partner-logo">
+								<img src={partner1} alt="Partner 2" />
+							</div>
+						</Slider>
 					</div>
 				</div>
 
@@ -84,14 +84,6 @@ const HomePage = () => {
 							<div className="form-group">
 								<label>Message</label>
 								<input type="text" />
-							</div>
-							<div className="form-group">
-								<label>How did you find us?</label>
-								<select>
-									<option value="social_media">Facebook</option>
-									<option value="search_engine">Tiktok</option>
-									<option value="search_engine">Website</option>
-								</select>
 							</div>
 							<button type="submit">SEND</button>
 						</form>
