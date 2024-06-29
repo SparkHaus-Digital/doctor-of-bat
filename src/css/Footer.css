@@ -108,4 +108,7 @@ h4 {
   .footer_title {
     text-align: center;
   }
+  .sb__footer-links-div {
+    margin: 0rem;
+  }
 }
