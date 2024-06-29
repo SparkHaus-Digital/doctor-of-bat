@@ -7,13 +7,14 @@ import ServicePage from "./screens/Services";
 import NewsPage from "./screens/News";
 import ContactusPage from "./screens/Contactus";
 import AboutUsPage from "./screens/Aboutus"
+import Footer from "./components/Footer";
 
 
 function App() {
   return (
     <Router>
       <div>
-        <Navbar />          
+        <Navbar />
         <Routes>
           <Route path="/news" element={<NewsPage />} />
           <Route path="/services" element={<ServicePage />} />
@@ -21,6 +22,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUsPage />} />
           <Route path="/contactus" element={<ContactusPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
