@@ -1,0 +1,38 @@
+.service-card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden; /* Hide overflow content */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.service-background {
+    background-color: #ccc; /* Placeholder background color */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; /* Smoothly transition on hover */
+}
+
+.service-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Smoothly transition opacity */
+}
+
+.service-card:hover .service-overlay {
+    opacity: 1;
+}
+
+.service-card:hover .service-background {
+    transform: scale(1.1); /* Scale up on hover */
+}
