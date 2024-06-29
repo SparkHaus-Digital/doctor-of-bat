@@ -1,9 +1,27 @@
 import React from 'react';
 import '../css/AboutusPage.css';
 import TestimonialSlider from '../components/TestimonialSlider';
+import TestimonialCard from '../components/TestimonialCard';
 import OwnerImage from '../assets/owner-image.jpg';
+import Slider from 'react-slick';
+
 
 const AboutUsPage = () => {
+	const settings2 = {
+		dots: true,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+	};
+	const testimonials = [
+        { name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+        { name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+        { name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+        { name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+    ];
 	return (
 		<div>
 			<div className="about-us-page">
@@ -22,7 +40,16 @@ const AboutUsPage = () => {
 				</div>
 				<div className="testimonial-section">
 					<h2 className="section-title">People that worked with us</h2>
-					<TestimonialSlider />
+					{/* <TestimonialSlider /> */}
+					<div className="slider-div">
+						<center>
+							<Slider {...settings2}>
+								{testimonials.map((testimonial, index) => (
+									<TestimonialCard key={index} {...testimonial} />
+								))}
+							</Slider>
+						</center>
+					</div>
 				</div>
 			</div>
 		</div>

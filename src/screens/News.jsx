@@ -27,7 +27,9 @@ const NewsPage = () => {
 						<h2>{article.fields.title}</h2>
 						<p>{new Date(article.fields.date).toLocaleDateString()}</p>
 						<p>{article.fields.summary}</p>
-						<button>Read More</button>
+						<a href={article.fields.readMoreLink} target="_blank" rel="noopener noreferrer">
+                            <button className='btn-read'>Read More</button>
+                        </a>
 					</div>
 				</div>
 			))}

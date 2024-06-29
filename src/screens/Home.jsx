@@ -110,10 +110,10 @@ const HomePage = () => {
 					</div>
 				</div>
 
-				{/* Footer */}
+				{/* Footer
 				<footer className="footer">
 					<p>&copy; 2024 Bat Repair Shop. All Rights Reserved.</p>
-				</footer>
+				</footer> */}
 			</div>
 		</div>
 	);

@@ -10,8 +10,9 @@
 }
 
 .about-us-left {
-    background-color: #a66a6a;
+    background-color: #e3e3e3;
     padding: 3rem;
+    border-radius: 2rem;
 }
 
 .about-us-right {
@@ -38,6 +39,13 @@
 
 .testimonial-section h2{
     text-align: center;
+}
+
+.slider-div {
+	overflow: hidden;
+	margin-top: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 .testimonial-slider {
