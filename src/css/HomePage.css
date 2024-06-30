@@ -225,10 +225,9 @@ button {
   }
 
   .landing-image img {
-    width: 180%;
-    height: 80vh;
+    width: 190%;
+    height: auto;
     object-fit: fill;
-    /* padding-left: 2rem; */
   }
 
   .service-cards-home {

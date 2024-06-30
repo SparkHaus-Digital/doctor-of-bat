@@ -15,13 +15,22 @@ const AboutUsPage = () => {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 3000,
+		responsive: [
+			{
+				breakpoint: 768, // Mobile view
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			}
+		]
 	};
 	const testimonials = [
-        { name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
-        { name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
-        { name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
-        { name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
-    ];
+		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+	];
 	return (
 		<div>
 			<div className="about-us-page">
