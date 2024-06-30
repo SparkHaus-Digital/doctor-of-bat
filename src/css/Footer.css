@@ -111,4 +111,7 @@ h4 {
   .sb__footer-links-div {
     margin: 0rem;
   }
+  .span {
+    margin-bottom: 30px;
+  }
 }
