@@ -10,6 +10,10 @@ function Navbar() {
         setIsOpen(!isOpen);
     };
 
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
+
     return (
         <nav className="navbar">
             <div className="logo">
@@ -20,19 +24,19 @@ function Navbar() {
             </div>
             <ul className={`menu-items ${isOpen ? 'open' : ''}`}>
                 <li>
-                    <Link to="/news">News</Link>
+                    <Link to="/news" onClick={closeMenu}>News</Link>
                 </li>
                 <li>
-                    <Link to="/services">Services</Link>
+                    <Link to="/services" onClick={closeMenu}>Services</Link>
                 </li>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" onClick={closeMenu}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/aboutus">About Us</Link>
+                    <Link to="/aboutus" onClick={closeMenu}>About Us</Link>
                 </li>
                 <li>
-                    <Link to="/contactus">Contact Us</Link>
+                    <Link to="/contactus" onClick={closeMenu}>Contact Us</Link>
                 </li>
             </ul>
         </nav>
