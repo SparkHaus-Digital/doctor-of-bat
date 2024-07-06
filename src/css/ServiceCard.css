@@ -1,38 +1,56 @@
 .service-card {
-    position: relative;
-    width: 200px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 25vw;
     margin: 10px;
-    cursor: pointer;
-    overflow: hidden; /* Hide overflow content */
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border-radius: 1rem;
+    background-color: #F5F5F7;
+    margin: 0;
 }
 
-.service-background {
-    background-color: #ccc; /* Placeholder background color */
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease; /* Smoothly transition on hover */
+.card-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
 }
 
-.service-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+.card-title {
     font-weight: bold;
-    opacity: 0;
-    transition: opacity 0.3s ease; /* Smoothly transition opacity */
 }
 
-.service-card:hover .service-overlay {
-    opacity: 1;
+.card-description p {
+    margin-top: 0;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: justify;
 }
 
-.service-card:hover .service-background {
-    transform: scale(1.1); /* Scale up on hover */
+@media (max-width: 575px) {
+    .card-image img{
+        width: 60vw;
+        height: auto;
+    }
+
+    .service-card {
+        max-width: 60vw;
+    }
 }
+  
+@media (min-width: 576px) and (max-width: 767px) {
+    .service-card {
+        max-width: 50vw;
+    }
+
+    .card-image img{
+        width: 50vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1799px) {
+    .service-card {
+        max-width: min-content;
+    }
+}
+
