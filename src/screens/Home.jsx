@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import '../css/HomePage.css';
 import LandingImage from '../assets/landing_image1.png';
@@ -8,6 +9,8 @@ import 'slick-carousel/slick/slick-theme.css';
 import partner1 from '../assets/adidas.png'
 
 const HomePage = () => {
+	const navigate = useNavigate();
+
 	const settings = {
 		dots: false,
 		infinite: true,
@@ -18,6 +21,11 @@ const HomePage = () => {
 		autoplaySpeed: 3000,
 	};
 
+	const handleViewMoreClick = () => {
+		navigate('/services');
+	  };
+	
+
 	return (
 		<div>
 			<div className="home">
@@ -27,7 +35,7 @@ const HomePage = () => {
 						<img src={LandingImage} alt="Landing Image" />
 						<h1>BAT REPAIR</h1>
 					</div>
-					<button className="view-more-btn">VIEW MORE</button>
+					<button className="view-more-btn" onClick={handleViewMoreClick}>VIEW MORE</button>
 				</div>
 
 				{/* Services Section */}

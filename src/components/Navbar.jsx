@@ -24,16 +24,16 @@ function Navbar() {
             </div>
             <ul className={`menu-items ${isOpen ? 'open' : ''}`}>
                 <li>
-                    <Link to="/news" onClick={closeMenu}>News</Link>
+                    <Link to="/" onClick={closeMenu}>Home</Link>
+                </li>
+                <li>
+                    <Link to="/aboutus" onClick={closeMenu}>About Us</Link>
                 </li>
                 <li>
                     <Link to="/services" onClick={closeMenu}>Services</Link>
                 </li>
                 <li>
-                    <Link to="/" onClick={closeMenu}>Home</Link>
-                </li>
-                <li>
-                    <Link to="/aboutus" onClick={closeMenu}>About Us</Link>
+                    <Link to="/news" onClick={closeMenu}>News</Link>
                 </li>
                 <li>
                     <Link to="/contactus" onClick={closeMenu}>Contact Us</Link>

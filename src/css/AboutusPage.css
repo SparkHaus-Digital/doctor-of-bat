@@ -1,5 +1,6 @@
 .about-us-page {
-  margin: 3rem;
+  margin: 2rem;
+  overflow: hidden;
 }
 
 .about-us-section {
@@ -95,7 +96,7 @@
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575px) {
   .about-us-section {
     grid-template-columns: 1fr;
   }
@@ -109,4 +110,11 @@
   .about-us-right {
     order: 2;
   }
+
+
 }
+  
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+  

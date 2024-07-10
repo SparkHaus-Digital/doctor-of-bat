@@ -18,6 +18,7 @@ const NewsPage = () => {
 		<div className="news-container">
 			<h1>GENERAL NEWS</h1>
 			{articles.map((article) => (
+				<center>
 				<div key={article.sys.id} className="news-item">
 					<img
 						src={article.fields.image.fields.file.url}
@@ -26,12 +27,13 @@ const NewsPage = () => {
 					<div>
 						<h2>{article.fields.title}</h2>
 						<p>{new Date(article.fields.date).toLocaleDateString()}</p>
-						<p>{article.fields.summary}</p>
+						<p className='news-desc'>{article.fields.summary}</p>
 						<a href={article.fields.readMoreLink} target="_blank" rel="noopener noreferrer">
                             <button className='btn-read'>Read More</button>
                         </a>
 					</div>
 				</div>
+				</center>
 			))}
 		</div>
 	);

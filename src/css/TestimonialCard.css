@@ -1,7 +1,6 @@
 .testimonial-card {
   width: 70%;
   height: 50vh;
-  margin-right: 4rem;
   border-radius: 10px;
   overflow: hidden;
   color: white;
@@ -32,13 +31,23 @@
 }
 
 .testimonial-description {
-  padding: 10px;
-  text-align: justify;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: left;
 }
 
-@media only screen and (max-width: 768px) {
+
+@media (max-width: 575px) {
   .testimonial-card {
     width: 95%;
     height: 40vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .testimonial-card {
+    width: 60%;
+    height: 50vh;
   }
 }

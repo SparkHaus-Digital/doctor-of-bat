@@ -26,7 +26,7 @@ const AboutUsPage = () => {
 		]
 	};
 	const testimonials = [
-		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+		{ name: 'John Doe', image: OwnerImage, description: 'ascc dcdcd scscdsc dscdscs dscsac dcsacsxsa scsaxas dscscsa dcsxsa' },
 		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
 		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
 		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
