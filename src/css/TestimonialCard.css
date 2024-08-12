@@ -9,10 +9,21 @@
 
 .testimonial-top {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 1rem;
   padding: 10px;
+}
+
+.testimonial-person {
+  margin-left: 1rem;
+}
+
+.testimonial-person h4{
+  margin: 0;
+  margin-top: 0.5rem;
+  text-align: left;
+  font-weight: 400;
 }
 
 .testimonial-image {

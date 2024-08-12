@@ -6,7 +6,32 @@ import LandingImage from '../assets/landing_image1.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import partner1 from '../assets/adidas.png'
+import partner1 from '../assets/logo/adidas.png'
+import partner2 from '../assets/logo/BAS.png'
+import partner3 from '../assets/logo/BDM.png'
+import partner4 from '../assets/logo/CA.png'
+import partner5 from '../assets/logo/CEAT.png'
+import partner6 from '../assets/logo/DSC.png'
+import partner8 from '../assets/logo/Gray Nicolls.png'
+import partner9 from '../assets/logo/K.png'
+import partner10 from '../assets/logo/KG.png'
+import partner11 from '../assets/logo/KOOKABURRA.png'
+import partner12 from '../assets/logo/Masuri.png'
+import partner13 from '../assets/logo/MB.png'
+import partner14 from '../assets/logo/MiDs.png'
+import partner15 from '../assets/logo/Mongoose.png'
+import partner16 from '../assets/logo/MRF.png'
+import partner17 from '../assets/logo/NB.png'
+import partner18 from '../assets/logo/PUMA.png'
+import partner19 from '../assets/logo/SF.png'
+import partner20 from '../assets/logo/SG.png'
+import partner21 from '../assets/logo/Slazenger.png'
+import partner22 from '../assets/logo/Spartan.png'
+import partner23 from '../assets/logo/speed.jpg'
+import partner24 from '../assets/logo/SS.png'
+import partner25 from '../assets/logo/TON.png'
+import partner26 from '../assets/logo/Woodworm.png'
+
 
 const HomePage = () => {
 	const navigate = useNavigate();
@@ -24,6 +49,10 @@ const HomePage = () => {
 	const handleViewMoreClick = () => {
 		navigate('/services');
 	  };
+
+	const handleCardClick = () => {
+		navigate('/services');
+	  };
 	
 
 	return (
@@ -33,7 +62,8 @@ const HomePage = () => {
 				<div className="landing">
 					<div className="landing-image">
 						<img src={LandingImage} alt="Landing Image" />
-						<h1>BAT REPAIR</h1>
+						<h1>YOUR BAT, <br />OUR EXPERTISE</h1>
+						<h3>SWING WITH CONFIDENCE. TRUSTED BY THE SRI LANKA NATIONAL TEAM, OUR EXPERT REPAIRS ENSURE YOUR BAT IS ALWAYS IN PEAK CONDITION.</h3>
 					</div>
 					<button className="view-more-btn" onClick={handleViewMoreClick}>VIEW MORE</button>
 				</div>
@@ -42,14 +72,14 @@ const HomePage = () => {
 				<div className="services-section">
 					<h2>OUR SERVICES</h2>
 					<div className="service-cards-home">
-						<div className="service-card-home">
+						<div className="service-card-home" onClick={handleCardClick} style={{ cursor: 'pointer' }}>
 							<h3>BAT REPAIR</h3>
 						</div>
 						<div className="service-card-home2">
 							<h3>DELIVERY</h3>
 						</div>
 						<div className="service-card-home3">
-							<h3>BAT MAINTAIN</h3>
+							<h3>CUSTOMIZATION</h3>
 						</div>
 					</div>
 				</div>
@@ -64,10 +94,76 @@ const HomePage = () => {
 									<img src={partner1} alt="Partner 1" />
 								</div>
 								<div className="partner-logo">
-									<img src={partner1} alt="Partner 2" />
+									<img src={partner2} alt="Partner 2" />
 								</div>
 								<div className="partner-logo">
-									<img src={partner1} alt="Partner 2" />
+									<img src={partner3} alt="Partner 3" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner4} alt="Partner 4" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner5} alt="Partner 5" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner6} alt="Partner 6" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner8} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner9} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner10} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner11} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner12} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner13} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner14} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner15} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner16} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner17} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner18} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner19} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner20} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner21} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner22} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner23} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner24} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner25} alt="Partner 7" />
+								</div>
+								<div className="partner-logo">
+									<img src={partner26} alt="Partner 7" />
 								</div>
 							</Slider>
 						</center>

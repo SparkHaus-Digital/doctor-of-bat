@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import license from '../assets/license.png'
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -39,23 +39,23 @@ const Footer = () => {
 					<div className="sb__footer-links-div">
 						<h4>Follow us</h4>
 						<div className="socialmedia">
-							<p>
-								<a href="https://www.facebook.com/doctorofbat">
+							<p className="social-div">
+								<a href="https://www.facebook.com/doctorofbat" target="_blank" rel="noopener noreferrer">
 									<FontAwesomeIcon icon={faFacebook} className="socialmedia_icon" />
 								</a>
 							</p>
-							<p>
-								<a href="/employer">
+							<p className="social-div">
+								<a href="https://www.instagram.com/doctorofbat " target="_blank" rel="noopener noreferrer">
 									<FontAwesomeIcon icon={faInstagram} className="socialmedia_icon" />
 								</a>
 							</p>
-							<p>
-								<a href="https://www.tiktok.com/@doctorofbat">
-									<FontAwesomeIcon icon={faLinkedin} className="socialmedia_icon" />
+							<p className="social-div">
+								<a href="https://www.tiktok.com/@doctorofbat" target="_blank" rel="noopener noreferrer">
+									<FontAwesomeIcon icon={faTiktok} className="socialmedia_icon" />
 								</a>
 							</p>
-							<p>
-								<a href="/employer">
+							<p className="social-div">
+								<a href="https://www.youtube.com/@SLSPORTSLK" target="_blank" rel="noopener noreferrer">
 									<FontAwesomeIcon icon={faYoutube} className="socialmedia_icon" />
 								</a>
 							</p>

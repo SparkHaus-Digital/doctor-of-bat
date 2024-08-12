@@ -48,14 +48,20 @@ a {
 .socialmedia {
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  justify-content: space-around;
+
 }
 
 .socialmedia_icon {
   width: 90%;
-  padding: 1rem;
-  margin-top: -2rem;
+  
 }
+
+.social-div {
+  
+
+}
+
 
 h4 {
   color: white;

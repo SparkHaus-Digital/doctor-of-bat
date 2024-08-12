@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@200..1000&family=Inter:wght@400;600;700&display=swap');
 /* Landing Section */
 .home {
   margin: 0;
@@ -13,12 +14,25 @@
 }
 
 .landing-image h1 {
+  font-family: "Bebas Neue", sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5em;
+  text-align: center;
+}
+
+.landing-image h3 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  font-size: 3em;
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  text-align: center;
+  font-weight: 100;
 }
 
 .view-more-btn {
@@ -222,7 +236,16 @@ button {
   }
 
   .landing-image h1 {
-    font-size: 2em;
+    font-size: 2.5em;
+  }
+
+  .landing-image h3 {
+    top: 60%;
+    font-size: 1em;
+  }
+
+  .view-more-btn {
+    bottom: 30px;
   }
 
   .landing-image img {
@@ -289,7 +312,7 @@ button {
   }
 
   .landing-image h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
 
   .partner-logo img {

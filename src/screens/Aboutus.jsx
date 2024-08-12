@@ -5,13 +5,12 @@ import TestimonialCard from '../components/TestimonialCard';
 import OwnerImage from '../assets/owner-image.jpg';
 import Slider from 'react-slick';
 
-
 const AboutUsPage = () => {
 	const settings2 = {
 		dots: true,
 		infinite: true,
 		speed: 500,
-		slidesToShow: 3,
+		slidesToShow: 2,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 3000,
@@ -21,15 +20,23 @@ const AboutUsPage = () => {
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
-				}
-			}
-		]
+				},
+			},
+		],
 	};
 	const testimonials = [
-		{ name: 'John Doe', image: OwnerImage, description: 'ascc dcdcd scscdsc dscdscs dscsac dcsacsxsa scsaxas dscscsa dcsxsa' },
-		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
-		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
-		{ name: 'John Doe', image: OwnerImage, description: 'Testimonial description goes here.' },
+		{
+			name: 'Roshene Silva ',
+			title: 'Test Cricketer',
+			description:
+				'“I always like to maintain the condition of the bat without changing it. Udayasiri does it for me. I think the service is inexhaustible.”',
+		},
+		{
+			name: 'Anusha Samaranayake',
+			title: 'former nation player and national coach',
+			description: '“Udayasiri’s specialty is that the bat can be made in the usual way, whether to make a bind or to adjust the handle, it is done correctly.”',
+		},
+		
 	];
 	return (
 		<div>
@@ -38,12 +45,39 @@ const AboutUsPage = () => {
 					<div className="about-us-left">
 						<h2 className="section-title2">Behind the success</h2>
 						<p className="section-description">
-							Description about the company goes here.
+							<p>
+							“When I joined the field of cricket, despite its rapid popularity
+							as a sport, the additional fields and services related to it were
+							not available here. The bat repair service was especially lacking
+							here. I started this service to fulfill that need. Gradually, with
+							the popularity of school and domestic-level cricket, the need for
+							bat repair increased.
+							</p>
+							<p>
+							In my opinion, the skill of the batsman as
+							well as the quality of the bat is essential for a long innings or
+							scoring runs in cricket. So, it is very important to maintain the
+							quality of that bat. Because the cricket bat is one of the most
+							sensitive pieces of cricket equipment, it is correct to say that
+							it is sensitive to the ball, the nature of its handling, as well
+							as natural factors such as air humidity. 
+							</p>
+							<p>
+							Over time, the bat may develop cracks, dents, or weakened areas that can affect its
+							performance. Repairing these issues can help restore the bat's
+							integrity, ensuring optimal performance and durability. 
+							</p>
+							<p>
+							Over three decades, I've consistently and responsibly prepared bats, driven
+							only by your trust. Your belief in me is what keeps me going in
+							this field. I promise to continue enhancing your cricket bat's
+							strength with each preparation.”
+							</p>
 						</p>
 					</div>
 					<div className="about-us-right">
 						<img src={OwnerImage} alt="Owner" className="owner-image" />
-						<h2 className="section-title">Dinura Abeygunawardane</h2>
+						<h2 className="section-title">Udayasiri Jayawardana</h2>
 						<p className="owner-title">Founder of Doctor of Bat</p>
 					</div>
 				</div>

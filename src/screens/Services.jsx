@@ -9,6 +9,10 @@ const ServicesPage = () => {
 	const [services, setServices] = useState([]);
 
 	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
+	useEffect(() => {
 		client
 			.getEntries({ content_type: 'service' })
 			.then((response) => {
@@ -21,9 +25,31 @@ const ServicesPage = () => {
 			<div className="services-page">
 				<h1 className="page-title">CRICKET BAT SERVICES & REPAIR</h1>
 				<p className="page-description">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-					convallis libero in dui lobortis, ut ultricies mauris pharetra.
+					At our workshop, we offer a comprehensive range of services to
+					maintain and enhance the performance of your cricket bat. From
+					traditional oil seasoning and crack repairs to custom handle reshaping
+					and precise weight balancing, our skilled technicians use proven
+					methods to ensure your bat is in peak condition. Whether it's applying
+					protective facings, re-binding handles, or restoring your bat to its
+					original glory, we are dedicated to preserving the quality and
+					longevity of your equipment.
 				</p>
+				<p className="page-description">
+					<b>
+						<em>Instructions</em>
+					</b>{' '}
+					- You can send your cricket bat to our workshop from anywhere in the
+					world. Please note that we do not arrange or cover shipping costs. If
+					you plan to send your bat via courier, kindly contact us before
+					dispatching.
+				</p>
+				<p className="page-description">
+					Once your bat is ready, you have the option to pick it up from our
+					workshop or have it shipped to your specified address. We will provide
+					you with tracking details once your bat has been dispatched, or we
+					will notify you when it is ready for pickup.
+				</p>
+
 				<div className="services-container">
 					{services.map((service) => (
 						<div key={service.sys.id} className="service-card">
