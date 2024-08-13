@@ -55,7 +55,7 @@ const Footer = () => {
 								</a>
 							</p>
 							<p className="social-div">
-								<a href="https://www.youtube.com/@SLSPORTSLK" target="_blank" rel="noopener noreferrer">
+								<a href="/" target="_blank" rel="noopener noreferrer">
 									<FontAwesomeIcon icon={faYoutube} className="socialmedia_icon" />
 								</a>
 							</p>

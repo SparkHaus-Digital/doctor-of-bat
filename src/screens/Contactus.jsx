@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../css/HomePage.css'
 
 const ContactusPage = () => {
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+	
 	return (
 		<div>
 			<div className="contact">

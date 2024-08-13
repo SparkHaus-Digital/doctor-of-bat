@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import '../css/HomePage.css';
@@ -35,6 +35,7 @@ import partner26 from '../assets/logo/Woodworm.png'
 
 const HomePage = () => {
 	const navigate = useNavigate();
+	
 
 	const settings = {
 		dots: false,
@@ -53,6 +54,10 @@ const HomePage = () => {
 	const handleCardClick = () => {
 		navigate('/services');
 	  };
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	
 
 	return (

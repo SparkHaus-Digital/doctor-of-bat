@@ -20,7 +20,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 5em;
+  font-size: 6rem;
   text-align: center;
 }
 
@@ -315,6 +315,11 @@ button {
     font-size: 3.5em;
   }
 
+  .landing-image h3 {
+    top: 60%;
+    font-size: 1em;
+  }
+
   .partner-logo img {
     max-width: 15vw;
   }
@@ -334,5 +339,17 @@ button {
 
   .map iframe {
     height: 30vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .landing-image h1 {
+    font-size: 3.5em;
+  }
+  
+  .landing-image h3 {
+    top: 60%;
+    font-size: 1em;
   }
 }

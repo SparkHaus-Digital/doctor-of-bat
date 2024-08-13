@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../css/AboutusPage.css';
 import TestimonialSlider from '../components/TestimonialSlider';
 import TestimonialCard from '../components/TestimonialCard';
@@ -38,6 +38,10 @@ const AboutUsPage = () => {
 		},
 		
 	];
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<div>
 			<div className="about-us-page">

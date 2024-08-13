@@ -57,12 +57,6 @@ a {
   
 }
 
-.social-div {
-  
-
-}
-
-
 h4 {
   color: white;
   text-align: center;
@@ -93,9 +87,21 @@ h4 {
 }
 
 @media screen and (max-width: 900px) {
+
+  .socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   .socialmedia_icon {
-    margin-top: -1rem;
+    width: 20vw;
+  }
+
+  .socialmedia_icon {
+    margin-top: 1rem;
     margin-left: -1rem;
+    margin-bottom: 1rem;
   }
 
   .section__padding {
@@ -121,3 +127,6 @@ h4 {
     margin-bottom: 30px;
   }
 }
+
+
+

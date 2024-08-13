@@ -6,6 +6,10 @@ const NewsPage = () => {
 	const [articles, setArticles] = useState([]);
 
 	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
+	useEffect(() => {
 		client
 			.getEntries({ content_type: 'newsArticle' })
 			.then((response) => {
