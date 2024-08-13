@@ -353,3 +353,9 @@ button {
     font-size: 1em;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .landing-image h3 {
+    top: 60%;
+  }
+}

@@ -4,6 +4,7 @@ import '../css/ServicePage.css';
 import service1 from '../assets/bat_repair.png';
 import { useEffect, useState } from 'react';
 import client from '../constraint/contentfulClient';
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
 const ServicesPage = () => {
 	const [services, setServices] = useState([]);
@@ -57,7 +58,7 @@ const ServicesPage = () => {
 								key={service.sys.id}
 								image={service.fields.image.fields.file.url}
 								title={service.fields.title}
-								description={service.fields.description}
+								description={documentToReactComponents(service.fields.summery)}
 							/>
 						</div>
 					))}

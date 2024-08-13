@@ -33,7 +33,7 @@ const AboutUsPage = () => {
 		},
 		{
 			name: 'Anusha Samaranayake',
-			title: 'former nation player and national coach',
+			title: 'Former National Player And National Coach',
 			description: '“Udayasiri’s specialty is that the bat can be made in the usual way, whether to make a bind or to adjust the handle, it is done correctly.”',
 		},
 		
@@ -47,7 +47,7 @@ const AboutUsPage = () => {
 			<div className="about-us-page">
 				<div className="about-us-section">
 					<div className="about-us-left">
-						<h2 className="section-title2">Behind the success</h2>
+						<h2 className="section-title2">Behind The Success</h2>
 						<p className="section-description">
 							<p>
 							“When I joined the field of cricket, despite its rapid popularity
