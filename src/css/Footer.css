@@ -54,7 +54,7 @@ a {
 
 .socialmedia_icon {
   width: 90%;
-  
+
 }
 
 h4 {
@@ -86,6 +86,20 @@ h4 {
   margin-top: 1.5rem;
 }
 
+/* @media (min-width: 576px) and (max-width: 769px){
+  .socialmedia {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .socialmedia_icon {
+    width: 40px;
+  }
+  
+
+} */
+
 @media screen and (max-width: 900px) {
 
   .socialmedia {
@@ -95,7 +109,7 @@ h4 {
   }
 
   .socialmedia_icon {
-    width: 20vw;
+    width: 60px;
   }
 
   .socialmedia_icon {
