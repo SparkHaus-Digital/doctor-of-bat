@@ -152,7 +152,7 @@
 .partner-logo img {
 	max-width: 12vw;
 	height: auto;
-	aspect-ratio: 4 / 1; 
+	aspect-ratio: 4 / 3; 
 	/* max-height: 40%; */
 }
 
@@ -297,6 +297,12 @@ button {
 
 	.map iframe {
 		height: 30vh;
+	}
+
+	.slider-div {
+		margin-top: 3rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 }
 
