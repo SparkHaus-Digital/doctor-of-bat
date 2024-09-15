@@ -3,6 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import '../css/HomePage.css';
 import LandingImage from '../assets/landing_image1.webp';
+import smallImage from '../assets/landing_image1-small.webp';
+import mediumImage from '../assets/landing_image1-medium.webp';
+import largeImage from '../assets/landing_image1-large.webp';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import emailjs from 'emailjs-com';
@@ -110,10 +113,12 @@ const HomePage = () => {
 					<div className="landing-image">
 						{/* <img src={LandingImage} alt="Landing Image"/> */}
 						<img
-							src={LandingImage}
+							src={largeImage} // Fallback for browsers that do not support `srcSet`
 							alt="Landing Image"
 							sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px"
+							srcSet={`${smallImage} 480w, ${mediumImage} 800w, ${largeImage} 1200w`}
 						/>
+
 						<h1>
 							YOUR BAT, <br />
 							OUR EXPERTISE
