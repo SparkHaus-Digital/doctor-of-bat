@@ -225,7 +225,6 @@ const HomePage = () => {
 						height="450"
 						style={{ border: 0 }}
 						allowFullScreen=""
-						loading="lazy"
 					></iframe>
 				</div>
 			</div>
