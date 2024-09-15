@@ -1,10 +1,10 @@
-import React from 'react';
-import ServiceCard from '../components/ServiceCard';
+import React, { Suspense, useEffect, useState } from 'react';
 import '../css/ServicePage.css';
 import service1 from '../assets/bat_repair.png';
-import { useEffect, useState } from 'react';
 import client from '../constraint/contentfulClient';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+
+const ServiceCard = React.lazy(() => import('../components/ServiceCard'));
 
 const ServicesPage = () => {
 	const [services, setServices] = useState([]);
@@ -47,12 +47,13 @@ const ServicesPage = () => {
 					you with tracking details once your bat has been dispatched, or we
 					will notify you when it is ready for pickup.
 				</p>
+				<Suspense fallback={<div>Loading services...</div>}></Suspense>
 				<div className="services-container">
 					{services.map((service) => (
 						<div key={service.sys.id} className="service-card">
 							<ServiceCard
 								key={service.sys.id}
-								image={service.fields.image.fields.file.url}
+								image={`${service.fields.image.fields.file.url}?w=500&h=500&fit=thumb&f=face&fm=webp`}
 								title={service.fields.title}
 								description={documentToReactComponents(service.fields.summery)}
 							/>

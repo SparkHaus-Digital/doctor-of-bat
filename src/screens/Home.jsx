@@ -84,7 +84,7 @@ const HomePage = () => {
 				{/* Landing Section */}
 				<div className="landing">
 					<div className="landing-image">
-						<img src={LandingImage} alt="Landing Image" />
+						<img src={LandingImage} alt="Landing Image" loading='lazy' />
 						<h1>YOUR BAT, <br />OUR EXPERTISE</h1>
 						<h3>SWING WITH CONFIDENCE. TRUSTED BY THE SRI LANKA NATIONAL TEAM, OUR EXPERT REPAIRS ENSURE YOUR BAT IS ALWAYS IN PEAK CONDITION.</h3>
 					</div>
@@ -98,7 +98,7 @@ const HomePage = () => {
 						<div className="service-card-home" onClick={handleCardClick} style={{ cursor: 'pointer' }}>
 							<h3>BAT REPAIR</h3>
 						</div>
-						<div className="service-card-home2">
+						<div className="service-card-home2" loading='lazy'>
 							<h3>DELIVERY</h3>
 						</div>
 						<div className="service-card-home3">

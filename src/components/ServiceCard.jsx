@@ -5,7 +5,7 @@ function ServiceCard({ image, title, description }) {
 	return (
 		<div className="service-card">
 			<div className="card-image">
-				<img src={image} alt="Service" />
+				<img src={image} alt="Service" loading='lazy'/>
 			</div>
             <p className='card-title'>{title}</p>
 			<div className="card-description">
