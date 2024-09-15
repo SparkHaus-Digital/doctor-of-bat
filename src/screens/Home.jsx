@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import '../css/HomePage.css';
-import LandingImage from '../assets/landing_image1.webp';
 import smallImage from '../assets/landing_image1-small.webp';
 import mediumImage from '../assets/landing_image1-medium.webp';
 import largeImage from '../assets/landing_image1-large.webp';
