@@ -73,7 +73,7 @@
 .service-card-home {
   width: 25%;
   height: 60vh;
-  background-image: url("../assets/bat_repair.png");
+  background-image: url("../assets/bat_repair.webp");
   background-size: cover;
   border-radius: 10px;
   display: flex;
@@ -89,7 +89,7 @@
 .service-card-home2 {
   width: 25%;
   height: 60vh;
-  background-image: url("../assets/Delivery.png");
+  background-image: url("../assets/Delivery.webp");
   background-size: cover;
   border-radius: 10px;
   display: flex;
@@ -104,7 +104,7 @@
 .service-card-home3 {
   width: 25%;
   height: 60vh;
-  background-image: url("../assets/maintain.png");
+  background-image: url("../assets/maintain.webp");
   background-size: cover;
   border-radius: 10px;
   display: flex;
@@ -147,7 +147,7 @@
 
 /* Contact Section */
 .contact {
-  background-image: url("../assets/googlemap.png");
+  background-image: url("../assets/googlemap.webp");
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr;
