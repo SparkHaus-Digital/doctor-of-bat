@@ -1,6 +1,5 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import '../css/ServicePage.css';
-import service1 from '../assets/bat_repair.png';
 import client from '../constraint/contentfulClient';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 

@@ -2,36 +2,36 @@ import React, { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import '../css/HomePage.css';
-import LandingImage from '../assets/landing_image1.png';
+import LandingImage from '../assets/landing_image1.webp';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import emailjs from 'emailjs-com';
 
-import partner1 from '../assets/logo/adidas.png'
-import partner2 from '../assets/logo/BAS.png'
-import partner3 from '../assets/logo/BDM.png'
-import partner4 from '../assets/logo/CA.png'
-import partner5 from '../assets/logo/CEAT.png'
-import partner6 from '../assets/logo/DSC.png'
-import partner8 from '../assets/logo/Gray Nicolls.png'
-import partner9 from '../assets/logo/K.png'
-import partner10 from '../assets/logo/KG.png'
-import partner11 from '../assets/logo/KOOKABURRA.png'
-import partner12 from '../assets/logo/Masuri.png'
-import partner13 from '../assets/logo/MB.png'
-import partner14 from '../assets/logo/MiDs.png'
-import partner15 from '../assets/logo/Mongoose.png'
-import partner16 from '../assets/logo/MRF.png'
-import partner17 from '../assets/logo/NB.png'
-import partner18 from '../assets/logo/PUMA.png'
-import partner19 from '../assets/logo/SF.png'
-import partner20 from '../assets/logo/SG.png'
-import partner21 from '../assets/logo/Slazenger.png'
-import partner22 from '../assets/logo/Spartan.png'
-import partner23 from '../assets/logo/speed.jpg'
-import partner24 from '../assets/logo/SS.png'
-import partner25 from '../assets/logo/TON.png'
-import partner26 from '../assets/logo/Woodworm.png'
+import partner1 from '../assets/logo/adidas.webp'
+import partner2 from '../assets/logo/BAS.webp'
+import partner3 from '../assets/logo/BDM.webp'
+import partner4 from '../assets/logo/CA.webp'
+import partner5 from '../assets/logo/CEAT.webp'
+import partner6 from '../assets/logo/DSC.webp'
+import partner8 from '../assets/logo/Gray Nicolls.webp'
+import partner9 from '../assets/logo/K.webp'
+import partner10 from '../assets/logo/KG.webp'
+import partner11 from '../assets/logo/KOOKABURRA.webp'
+import partner12 from '../assets/logo/Masuri.webp'
+import partner13 from '../assets/logo/MB.webp'
+import partner14 from '../assets/logo/MiDs.webp'
+import partner15 from '../assets/logo/Mongoose.webp'
+import partner16 from '../assets/logo/MRF.webp'
+import partner17 from '../assets/logo/NB.webp'
+import partner18 from '../assets/logo/PUMA.webp'
+import partner19 from '../assets/logo/SF.webp'
+import partner20 from '../assets/logo/SG.webp'
+import partner21 from '../assets/logo/Slazenger.webp'
+import partner22 from '../assets/logo/Spartan.webp'
+import partner23 from '../assets/logo/Speed.webp'
+import partner24 from '../assets/logo/SS.webp'
+import partner25 from '../assets/logo/TON.webp'
+import partner26 from '../assets/logo/Woodworm.webp'
 
 
 const HomePage = () => {
