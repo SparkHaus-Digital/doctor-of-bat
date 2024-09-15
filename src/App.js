@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
 
 const HomePage = React.lazy(() => import("./screens/Home"));
 const ServicePage = React.lazy(() => import("./screens/Services"));
@@ -23,6 +23,7 @@ function App() {
             <Route path="/aboutus" element={<AboutUsPage />} />
             <Route path="/contactus" element={<ContactusPage />} />
           </Routes>
+          <SpeedInsights />
         </Suspense>
         <Footer />
       </div>
