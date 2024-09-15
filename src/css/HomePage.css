@@ -1,28 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@200..1000&family=Inter:wght@400;600;700&display=swap');
 
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('https://fonts.gstatic.com/s/bebasneue/v6/KFOmCnqEu92Fr1Me5Q.woff2') format('woff2');
+    font-display: swap;
+}
+
 .home {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
 }
-/* .landing {
+.landing {
 	position: relative;
 }
 
 .landing-image img {
 	width: 100%;
 	object-fit: cover;
-} */
-.landing-image {
-	position: relative;
-	width: 100%;
-	height: auto; 
-  }
-  
-  .landing-image img {
-	width: 100%;
-	height: auto; 
-	object-fit: cover;
+	aspect-ratio: 16 / 9;
 }
 
 .landing-image h1 {
@@ -91,6 +87,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	aspect-ratio: 3 / 4;
 }
 
 .service-card-home h3 {
@@ -121,6 +118,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	aspect-ratio: 3 / 4;
 }
 
 .service-card-home3 h3 {
@@ -153,6 +151,8 @@
 
 .partner-logo img {
 	max-width: 12vw;
+	height: auto;
+	aspect-ratio: 4 / 1; 
 	/* max-height: 40%; */
 }
 
@@ -266,29 +266,19 @@ button {
 		align-items: center;
 	}
 
-	.service-card-home {
-		margin-top: 2rem;
-		width: 60%;
-		height: 40vh;
-		margin-bottom: 2rem;
-	}
-
-	.service-card-home2 {
-		margin-top: 2rem;
-		width: 60%;
-		height: 40vh;
-		margin-bottom: 2rem;
-	}
-
+	.service-card-home,
+	.service-card-home2,
 	.service-card-home3 {
 		margin-top: 2rem;
 		width: 60%;
 		height: 40vh;
 		margin-bottom: 2rem;
+		aspect-ratio: 3 / 4; /* Maintain aspect ratio for mobile */
 	}
 
 	.partner-logo img {
 		max-width: 20vw;
+		height: auto;
 		/* max-height: 40%; */
 	}
 
