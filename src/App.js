@@ -24,8 +24,8 @@ function App() {
             <Route path="/contactus" element={<ContactusPage />} />
           </Routes>
           {/* <SpeedInsights /> */}
+          <Footer />
         </Suspense>
-        <Footer />
       </div>
     </Router>
   );
