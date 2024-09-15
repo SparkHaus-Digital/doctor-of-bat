@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import '../css/AboutusPage.css';
-import TestimonialSlider from '../components/TestimonialSlider';
 import TestimonialCard from '../components/TestimonialCard';
 import OwnerImage from '../assets/owner-image.jpg';
 import Slider from 'react-slick';
