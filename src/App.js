@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { SpeedInsights } from "@vercel/speed-insights/react";
+// import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -23,7 +23,7 @@ function App() {
             <Route path="/aboutus" element={<AboutUsPage />} />
             <Route path="/contactus" element={<ContactusPage />} />
           </Routes>
-          <SpeedInsights />
+          {/* <SpeedInsights /> */}
         </Suspense>
         <Footer />
       </div>
