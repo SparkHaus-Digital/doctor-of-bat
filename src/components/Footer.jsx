@@ -32,29 +32,29 @@ const Footer = () => {
 						<MdEmail className="reacticon" />
 						<h4>Email</h4>
 						<span className="span">
-							doctorofbat@gmail.com
+						<a href="mailto:doctorofbat@gmail.com">doctorofbat@gmail.com</a>
 						</span>
 					</div>
 					<div className="sb__footer-links-div">
 						<h4>Follow us</h4>
 						<div className="socialmedia">
 							<p className="social-div">
-								<a href="https://www.facebook.com/doctorofbat" target="_blank" rel="noopener noreferrer">
+								<a href="https://www.facebook.com/doctorofbat" target="_blank" rel="noopener noreferrer" hreflang="en">
 									<FontAwesomeIcon icon={faFacebook} className="socialmedia_icon" />
 								</a>
 							</p>
 							<p className="social-div">
-								<a href="https://www.instagram.com/doctorofbat " target="_blank" rel="noopener noreferrer">
+								<a href="https://www.instagram.com/doctorofbat " target="_blank" rel="noopener noreferrer" hreflang="en">
 									<FontAwesomeIcon icon={faInstagram} className="socialmedia_icon" />
 								</a>
 							</p>
 							<p className="social-div">
-								<a href="https://www.tiktok.com/@doctorofbat" target="_blank" rel="noopener noreferrer">
+								<a href="https://www.tiktok.com/@doctorofbat" target="_blank" rel="noopener noreferrer" hreflang="en">
 									<FontAwesomeIcon icon={faTiktok} className="socialmedia_icon" />
 								</a>
 							</p>
 							<p className="social-div">
-								<a href="/" target="_blank" rel="noopener noreferrer">
+								<a href="/" target="_blank" rel="noopener noreferrer" hreflang="en">
 									<FontAwesomeIcon icon={faYoutube} className="socialmedia_icon" />
 								</a>
 							</p>
@@ -64,8 +64,8 @@ const Footer = () => {
 			</div>
 			<div className="sb__footer-below">
 				<div className="sb__footer-copyright">
-					<span className="copyright">
-						@{new Date().getFullYear()} <b>Sparkhaus</b>. All Right Reserved.<br />
+					<span className="copyright"> 
+						@{new Date().getFullYear()} <a href="https://www.linkedin.com/in/sparkhaus-digital" target="_blank" rel="noopener noreferrer" hreflang="en"><b>Sparkhaus</b>.</a> All Right Reserved.<br />
 					</span><br />
 				</div>
 			</div>

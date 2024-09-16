@@ -37,6 +37,11 @@
     .service-card {
         max-width: 60vw;
     }
+
+    .card-description p {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
 }
   
 @media (min-width: 576px) and (max-width: 767px) {
