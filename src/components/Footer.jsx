@@ -41,22 +41,22 @@ const Footer = () => {
 						<h4>Follow us</h4>
 						<div className="socialmedia">
 							<p className="social-div">
-								<a href="https://www.facebook.com/doctorofbat" target="_blank" rel="noopener noreferrer" hreflang="en">
+								<a href="https://www.facebook.com/doctorofbat" target="_blank" rel="noopener noreferrer" hreflang="en" aria-label="Facebook">
 									<FontAwesomeIcon icon={faFacebook} className="socialmedia_icon" />
 								</a>
 							</p>
 							<p className="social-div">
-								<a href="https://www.instagram.com/doctorofbat " target="_blank" rel="noopener noreferrer" hreflang="en">
+								<a href="https://www.instagram.com/doctorofbat " target="_blank" rel="noopener noreferrer" hreflang="en" aria-label="Instagram">
 									<FontAwesomeIcon icon={faInstagram} className="socialmedia_icon" />
 								</a>
 							</p>
 							<p className="social-div">
-								<a href="https://www.tiktok.com/@doctorofbat" target="_blank" rel="noopener noreferrer" hreflang="en">
+								<a href="https://www.tiktok.com/@doctorofbat" target="_blank" rel="noopener noreferrer" hreflang="en" aria-label="Tiktok">
 									<FontAwesomeIcon icon={faTiktok} className="socialmedia_icon" />
 								</a>
 							</p>
 							<p className="social-div">
-								<a href="/" target="_blank" rel="noopener noreferrer" hreflang="en">
+								<a href="/" target="_blank" rel="noopener noreferrer" hreflang="en" aria-label="Youtube">
 									<FontAwesomeIcon icon={faYoutube} className="socialmedia_icon" />
 								</a>
 							</p>
@@ -67,7 +67,7 @@ const Footer = () => {
 			<div className="sb__footer-below">
 				<div className="sb__footer-copyright">
 					<span className="copyright"> 
-						@{new Date().getFullYear()} <a href="https://www.linkedin.com/company/sparkhausdigital" target="_blank" rel="noopener noreferrer" hreflang="en"><b>Sparkhaus</b>.</a> All Right Reserved.<br />
+						@{new Date().getFullYear()} <a href="https://www.linkedin.com/company/sparkhausdigital" target="_blank" rel="noopener noreferrer" hreflang="en" aria-label="Linkedin"><b>Sparkhaus</b>.</a> All Right Reserved.<br />
 					</span><br />
 				</div>
 			</div>
