@@ -117,8 +117,7 @@ const HomePage = () => {
 							sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px"
 							srcSet={`${smallImage} 480w, ${mediumImage} 800w, ${largeImage} 1200w`}
 						/>
-
-						<h1>
+						{/* <h1>
 							YOUR BAT, <br />
 							OUR EXPERTISE
 						</h1>
@@ -126,10 +125,23 @@ const HomePage = () => {
 							SWING WITH CONFIDENCE. TRUSTED BY THE SRI LANKA NATIONAL TEAM, OUR
 							EXPERT REPAIRS ENSURE YOUR BAT IS ALWAYS IN PEAK CONDITION.
 						</h3>
+						<button className="view-more-btn" onClick={handleViewMoreClick}>
+							VIEW MORE
+						</button> */}
+						<div className="hero-text">
+							<h1>
+								YOUR BAT, <br />
+								OUR EXPERTISE
+							</h1>
+							<h3>
+								SWING WITH CONFIDENCE. TRUSTED BY THE SRI LANKA NATIONAL TEAM,
+								OUR EXPERT REPAIRS ENSURE YOUR BAT IS ALWAYS IN PEAK CONDITION.
+							</h3>
+							<button className="view-more-btn" onClick={handleViewMoreClick}>
+								VIEW MORE
+							</button>
+						</div>
 					</div>
-					<button className="view-more-btn" onClick={handleViewMoreClick}>
-						VIEW MORE
-					</button>
 				</div>
 
 				{/* Services Section */}
@@ -159,79 +171,204 @@ const HomePage = () => {
 						<center>
 							<Slider {...settings}>
 								<div className="partner-logo">
-									<img src={partner1} alt="Partner 1" width="100" height="100" />
+									<img
+										src={partner1}
+										alt="Partner 1"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner2} alt="Partner 2" width="100" height="100"/>
+									<img
+										src={partner2}
+										alt="Partner 2"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner3} alt="Partner 3" width="100" height="100"/>
+									<img
+										src={partner3}
+										alt="Partner 3"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner4} alt="Partner 4" width="100" height="100"/>
+									<img
+										src={partner4}
+										alt="Partner 4"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner5} alt="Partner 5" width="100" height="100"/>
+									<img
+										src={partner5}
+										alt="Partner 5"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner6} alt="Partner 6" width="100" height="100"/>
+									<img
+										src={partner6}
+										alt="Partner 6"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner8} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner8}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner9} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner9}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner10} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner10}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner11} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner11}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner12} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner12}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner13} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner13}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner14} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner14}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner15} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner15}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner16} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner16}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner17} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner17}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner18} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner18}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner19} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner19}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner20} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner20}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner21} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner21}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner22} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner22}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner23} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner23}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner24} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner24}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner25} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner25}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 								<div className="partner-logo">
-									<img src={partner26} alt="Partner 7" width="100" height="100"/>
+									<img
+										src={partner26}
+										alt="Partner 7"
+										width="100"
+										height="100"
+									/>
 								</div>
 							</Slider>
 						</center>

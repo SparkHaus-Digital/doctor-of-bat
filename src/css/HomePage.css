@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@200..1000&family=Inter:wght@400;600;700&display=swap');
 
 @font-face {
-    font-family: 'Bebas Neue';
-    src: url('https://fonts.gstatic.com/s/bebasneue/v6/KFOmCnqEu92Fr1Me5Q.woff2') format('woff2');
-    font-display: swap;
+	font-family: 'Bebas Neue';
+	src: url('https://fonts.gstatic.com/s/bebasneue/v6/KFOmCnqEu92Fr1Me5Q.woff2')
+		format('woff2');
+	font-display: swap;
 }
 
 .home {
@@ -21,6 +22,27 @@
 	aspect-ratio: 16 / 9;
 }
 
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.hero-text h1 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 6rem;
+	margin: 0;
+}
+
+.hero-text h3 {
+	font-size: 1em;
+	font-weight: 100;
+}
+
+/* 
 .landing-image h1 {
 	font-family: 'Bebas Neue', sans-serif;
 	position: absolute;
@@ -41,13 +63,10 @@
 	font-size: 1em;
 	text-align: center;
 	font-weight: 100;
-}
+} */
 
 .view-more-btn {
-	position: absolute;
-	bottom: 60px;
-	left: 50%;
-	transform: translateX(-50%);
+	margin-top: 20px;
 	padding: 10px 20px;
 	background-color: rgb(0, 0, 0);
 	color: rgb(255, 255, 255);
@@ -152,7 +171,7 @@
 .partner-logo img {
 	max-width: 12vw;
 	height: auto;
-	aspect-ratio: 4 / 3; 
+	aspect-ratio: 4 / 3;
 	/* max-height: 40%; */
 }
 
@@ -241,24 +260,23 @@ button {
 		overflow-x: hidden;
 	}
 
-	.landing-image h1 {
-		font-size: 2.5em;
-	}
-
-	.landing-image h3 {
-		top: 60%;
-		font-size: 1em;
-	}
-
-	.view-more-btn {
+	.hero-text h1 {
+		font-size: 2.5rem;
+	  }
+	
+	  .hero-text h3 {
+		font-size: 0.8rem;
+	  }
+	
+	  .view-more-btn {
 		bottom: 30px;
-	}
-
-	.landing-image img {
+	  }
+	
+	  .landing-image img {
 		width: 190%;
 		height: auto;
 		object-fit: fill;
-	}
+	  }
 
 	.service-cards-home {
 		display: flex;
@@ -313,14 +331,13 @@ button {
 		overflow-x: hidden;
 	}
 
-	.landing-image h1 {
+	.hero-text h1 {
 		font-size: 3.5em;
-	}
-
-	.landing-image h3 {
-		top: 60%;
+	  }
+	
+	  .hero-text h3 {
 		font-size: 1em;
-	}
+	  }
 
 	.partner-logo img {
 		max-width: 15vw;
@@ -345,18 +362,17 @@ button {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-	.landing-image h1 {
+	.hero-text h1 {
 		font-size: 3.5em;
-	}
-
-	.landing-image h3 {
-		top: 60%;
+	  }
+	
+	  .hero-text h3 {
 		font-size: 1em;
-	}
+	  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	.landing-image h3 {
-		top: 60%;
-	}
+	.hero-text h3 {
+		font-size: 1em;
+	  }
 }
