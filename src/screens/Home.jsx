@@ -123,7 +123,7 @@ const HomePage = () => {
 								OUR EXPERTISE
 							</h1>
 							<h3>
-								SWING WITH CONFIDENCE. TRUSTED BY THE SRI LANKA NATIONAL TEAM,
+								SWING WITH CONFIDENCE. TRUSTED BY THE SRI LANKAN NATIONAL CRICKET TEAM,
 								OUR EXPERT REPAIRS ENSURE YOUR BAT IS ALWAYS IN PEAK CONDITION.
 							</h3>
 							<button className="view-more-btn" onClick={handleViewMoreClick}>

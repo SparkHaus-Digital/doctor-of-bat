@@ -12,7 +12,7 @@ const Footer = () => {
 			<div className="sb__footer section__padding">
 				<div className="sb__footer-links">
 					<div className="sb__footer-links-div">
-						<h4 className="footer_title">OFFICIAL BAT <br /> REPAIR PARTNER<br />OF SRI LANKAN<br />NATIONAL TEAM</h4><br />
+						<h4 className="footer_title">OFFICIAL BAT <br /> REPAIR PARTNER<br />OF SRI LANKAN<br />NATIONAL CRICKET TEAM</h4><br />
 					</div>
 					<div className="sb__footer-links-div footer_mid">
 						<FaLocationDot className="reacticon" />
