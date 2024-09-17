@@ -12,7 +12,7 @@ const Footer = () => {
 			<div className="sb__footer section__padding">
 				<div className="sb__footer-links">
 					<div className="sb__footer-links-div">
-						<h4 className="footer_title">OFFICIAL BAT <br /> REPAIR PARTNER<br />OF SRI LANKA<br />NATIONAL TEAM</h4><br />
+						<h4 className="footer_title">OFFICIAL BAT <br /> REPAIR PARTNER<br />OF SRI LANKAN<br />NATIONAL TEAM</h4><br />
 					</div>
 					<div className="sb__footer-links-div footer_mid">
 						<FaLocationDot className="reacticon" />
@@ -25,7 +25,9 @@ const Footer = () => {
 						<FaPhoneAlt className="reacticon" />
 						<h4>Phone</h4>
 						<span className="span">
-							+94 77 718 4814
+							+94 77 718 4814 <br />
+							+94 77 611 5265 < br />
+							+94 11 277 7866
 						</span>
 					</div>
 					<div className="sb__footer-links-div footer_mid">
@@ -65,7 +67,7 @@ const Footer = () => {
 			<div className="sb__footer-below">
 				<div className="sb__footer-copyright">
 					<span className="copyright"> 
-						@{new Date().getFullYear()} <a href="https://www.linkedin.com/in/sparkhaus-digital" target="_blank" rel="noopener noreferrer" hreflang="en"><b>Sparkhaus</b>.</a> All Right Reserved.<br />
+						@{new Date().getFullYear()} <a href="https://www.linkedin.com/company/sparkhausdigital" target="_blank" rel="noopener noreferrer" hreflang="en"><b>Sparkhaus</b>.</a> All Right Reserved.<br />
 					</span><br />
 				</div>
 			</div>
