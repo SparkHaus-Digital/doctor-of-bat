@@ -350,6 +350,10 @@ button {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	.hero-text h1 {
+		font-size: 4em;
+	  }
+
 	.hero-text h3 {
 		font-size: 1em;
 	  }
