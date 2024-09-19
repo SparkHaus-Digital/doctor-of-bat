@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@200..1000&family=Inter:wght@400;600;700&display=swap');
 
-@font-face {
-	font-family: 'Bebas Neue';
-	src: url('https://fonts.gstatic.com/s/bebasneue/v6/KFOmCnqEu92Fr1Me5Q.woff2')
-		format('woff2');
-	font-display: swap;
-}
-
 .home {
 	margin: 0;
 	padding: 0;

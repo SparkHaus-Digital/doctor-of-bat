@@ -74,6 +74,10 @@ const HomePage = () => {
 		navigate('/services');
 	};
 
+	const handleDeliveryCardClick = () => {
+		navigate('/delivery');
+	}
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -144,7 +148,11 @@ const HomePage = () => {
 						>
 							<h3>BAT REPAIR</h3>
 						</div>
-						<div className="service-card-home2">
+						<div 
+							className="service-card-home2"
+							onClick={handleDeliveryCardClick}
+							style={{ cursor: 'pointer' }}
+						>
 							<h3>DELIVERY</h3>
 						</div>
 						<div className="service-card-home3">
