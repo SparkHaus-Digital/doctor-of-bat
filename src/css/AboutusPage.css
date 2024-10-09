@@ -53,19 +53,12 @@
 }
 
 .slider-div {
-  overflow: hidden;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 2rem;
   margin-right: 2rem;
-}
-
-.testimonial-slider {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  margin-top: 4rem;
   margin-bottom: 4rem;
 }
+
 
 
 @media (max-width: 575px) {

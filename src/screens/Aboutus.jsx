@@ -3,6 +3,8 @@ import '../css/AboutusPage.css';
 import TestimonialCard from '../components/TestimonialCard';
 import OwnerImage from '../assets/owner-image.png';
 import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const AboutUsPage = () => {
 	const settings2 = {
@@ -68,7 +70,7 @@ const AboutUsPage = () => {
 							<p>
 							Over time, the bat may develop cracks, dents, or weakened areas that can affect its
 							performance. Repairing these issues can help restore the bat's
-							integrity, ensuring optimal performance and durability. 
+							integrity, ensuring optimal performance and durability.
 							</p>
 							<p>
 							Over three decades, I've consistently and responsibly prepared bats, driven
@@ -86,7 +88,6 @@ const AboutUsPage = () => {
 				</div>
 				<div className="testimonial-section">
 					<h2 className="section-title2">People that worked with us</h2>
-					{/* <TestimonialSlider /> */}
 					<div className="slider-div">
 						<center>
 							<Slider {...settings2}>
