@@ -63,7 +63,7 @@ const AboutUsPage = () => {
 							quality of that bat. Because the cricket bat is one of the most
 							sensitive pieces of cricket equipment, it is correct to say that
 							it is sensitive to the ball, the nature of its handling, as well
-							as natural factors such as air humidity. 
+							as natural factors such as air humidity.  
 							</p>
 							<p>
 							Over time, the bat may develop cracks, dents, or weakened areas that can affect its
