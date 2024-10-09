@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import '../css/AboutusPage.css';
 import TestimonialCard from '../components/TestimonialCard';
-import OwnerImage from '../assets/owner-image.jpg';
+import OwnerImage from '../assets/owner-image.png';
 import Slider from 'react-slick';
 
 const AboutUsPage = () => {
